@@ -33,6 +33,17 @@
             list-style: none;
             margin:0 23px ;
 
+        } 
+        nav ul li a{
+            text-decoration: none;
+            color: antiquewhite;
+
+        }
+        nav ul li a:hover{
+            
+            color: rgb(81, 245, 108);
+            font-size: 1.06rem;
+
         }
         .left{
             font: size 2rem; ;
@@ -40,22 +51,38 @@
         .firstSection{
             display: flex;
             justify-content:space-around ;
-            margin: 23px 0;
+            margin: 50px 0;
+            align-items:start;
         }
-        .firstSection div{
+        .firstSection > div{
            width: 30%;
+           margin: 50px;
         }
         .leftSection{
+            display: block;
             
-            font-size: 3rem;
+            font-size: 2rem;
+            
+            width: 300px;
 
         }
         .rightSection img{
             margin: 10px;
+            width: 80%;
             
             
 
         }
+        .purple{
+            color: rgb(38, 12, 62);
+           font-size: 3rem;
+
+        }
+        .cool{
+            color:  rgb(38, 12, 62);
+            font-size: 3rem;
+        }
+
     
 
     </style>
@@ -66,18 +93,18 @@
             <div class="left">Aditya's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li> 
-                    <li>About</li>
-                     <li>Past Projects</li>
-                     <li>Contact me</li>
+                    <li><a href="/">Home</a></li> 
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Past Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
   <main>
     <section class="firstSection">
-        <div class="leftSection">Hi EmpeR0R here aka Aditya
-        <div> and I am a Developer</div>
+        <div class="leftSection">Hi !!  <span class="purple">EmpeR0R</span>  here aka Aditya
+        <div> and I am a passionate<div class="cool">Developer</div> </div>
         </div>
         <div class="rightSection"><img src="A photo of a white fur monster standing in a purple room.webp" height="90%" width="80%"></div>
     </section>
